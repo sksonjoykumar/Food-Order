@@ -1,0 +1,51 @@
+/* =============== Google Font Link  =============== */
+/* font-family link  */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Play:wght@400;700&family=Playfair+Display+SC:wght@400;700;900&family=Playfair:ital,opsz@0,5..1200;1,5..1200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Play:wght@400;700&family=Playfair+Display+SC:wght@400;700;900&family=Playfair:ital,opsz@0,5..1200;1,5..1200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap");
+
+/*   font-family: "Poppins", sans-serif; */
+/* font-family: "Kaushan Script", cursive; */
+
+/* =============== CSS Reset Code ============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+
+  /* padding: 4rem; */
+}
+.form-container .form-content-container {
+  background-color: #e9ecef;
+  box-shadow: 2px 3px 4px #c1c1c1;
+  border-radius: 6px;
+  padding: 2rem;
+  width: 400px !important;
+}
+.form-container .form-content-container .myBtnCon {
+  display: flex;
+  justify-content: center;
+
+  .myBtn {
+    padding: 10px 2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #31a312;
+    transition: all 0.4s;
+  }
+  .myBtn:hover {
+    background-color: #ddd;
+  }
+}
